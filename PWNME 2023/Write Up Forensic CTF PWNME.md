@@ -1,9 +1,11 @@
-<p align="center">
-  <img src="./scr/images/titre.png" />
-  <img src="./scr/images/forensic/forensic.png" />
-</p>
-
-Le forensic est l'investigation d’un système d’information après une cyberattaque
+<div style="text-align:center;">
+  <div style="display:inline-block; width:100%;">
+    <img src="./scr/images/titre.png" style="display:block; margin:auto;" />
+  </div>
+  <div style="display:inline-block; width:100%;">
+    <img src="./scr/images/forensic/forensic.png" style="display:block; margin:auto;" />
+  </div>
+</div>
 
 ## Challenge “kNOCk kNOC” 198 résolutions :
 
