@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./src/images/pwnme.png"/>
+</p>
+
 # Write Up PwnMe 2023
 
 Crypto
