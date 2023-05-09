@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./src/images/pwnme.png"/>
+  <img src="./src/image/pwnme.png"/>
 </p>
 
 # Write Up PwnMe 2023
