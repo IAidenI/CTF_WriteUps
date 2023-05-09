@@ -1,19 +1,14 @@
 <p align="center">
-  <img src="./scr/images/titre.png" />
+  <img src="./src/images/titre.png"/>
 </p>
 
 <p align="center">
-  <img src="./scr/images/forensic/forensic.png" />
+  <img src="./src/images/forensic/forensic.png"/>
 </p>
 
 ## Challenge “kNOCk kNOC” 198 résolutions :
 
-```
-Author: Braguette#0169`
-
-We have to monitor our network every day to make sure our admins don't help
-players get out of the game. We are sending you a suspicious capture. Do your job !
-```
+<img src="./src/images/forensic/ennonce.png"/>
 
 #### Analyse du fichier
 
