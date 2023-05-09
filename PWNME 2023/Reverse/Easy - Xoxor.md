@@ -57,5 +57,5 @@ On voit qu'en réalité c’est juste un **XOR**, comme son nom l’indique. Or 
 Donc il est très simple de retrouver la valeur retournée, car on connaît les deux chaînes passées en paramètre.
 Un simple algorithme python permet de retrouver le flag :
 
-<img src="./src/images/forensic_Easy_7.png"/>
-<img src="./src/images/forensic_Easy_8.png"/>
+<img src="./src/images/reverse_Easy_7.png"/>
+<img src="./src/images/reverse_Easy_8.png"/>
