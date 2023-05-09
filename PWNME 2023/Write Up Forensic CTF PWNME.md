@@ -30,7 +30,7 @@ Les données sont nettement moins importantes à analyser. Je viens à présent 
 
 
 
-#### Extraction du document transmis
+### Extraction du document transmis
 
 On y voit clairement qu’un client a envoyé une requête **HTTP GET** pour récupérer un fichier nommé, **“MalPack.deb”**. Le serveur est en “200 OK”, et envoie donc le fichier.
 Afin de nous aussi récupérer ce fichier, je vais faire `Fichier → Exporter Objets → http`.
@@ -63,7 +63,7 @@ Ensuite, on va dans `/usr/local/bin` et on y trouve le fichier simplescript.sh q
 
 
 
-#### Récupération des fichiers
+### Récupération des fichiers
 
 On vient télécharger le fichier `Silver` qui s'avère être un 7z.
 On l’extrait et on obtient un fichier image nommé `usb_drive.img`.
@@ -81,7 +81,7 @@ Il nous permet d’analyser l’image et d’obtenir d'intéressants fichiers.
 
 
 
-#### Analyse des fichiers récupéré
+### Analyse des fichiers récupéré
 
 On y voit notamment un fichier `.pdf.png` qui contient juste une image et le fichier `.Important.pdf.desktop` qui est un raccourcis :
 
@@ -101,7 +101,7 @@ Et pour finir, le plus important, le fichier `.firefox.elf`. L'extension .elf es
 
 
 
-#### Interception du site malveillant
+### Interception du site malveillant
 
 Par mesure de précaution, j’ai donc créé un VM pour exécuter ce programme.
 Lors de son exécution, comme on peut s’en douter, il ne se passe rien visuellement, mais si on vient faire un scan du réseau avec **Wireshark**, on peut observer que lorsque l’on exécute le fichier, certaines trames apparaissent.
