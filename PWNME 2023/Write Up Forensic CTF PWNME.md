@@ -4,7 +4,9 @@
 
 ## Challenge kNOCk kNOC 198 résolutions :
 
-<img src="./src/images/forensic/ennonce_intro.png"/>
+>Author: Braguette#0169
+
+>We have to monitor our network every day to make sure our admins don't help players get out of the game. We are sending you a suspicious capture. Do your job !
 
 #### Analyse du fichier
 
@@ -40,7 +42,14 @@ Ensuite, on va dans `/usr/local/bin` et on y trouve le fichier simplescript.sh q
 
 ## Challenge Silver 69 résolutions :
 
-<img src="./src/images/forensic/ennonce_easy.png"/>
+>Author: Mr.NOODLE#9112
+
+>Hey,
+>I received a flash drive in my mailbox. It appears that the person who sent me the package was aware that I was using Linux. However, the flash drive self-destructed before I was able to make an image of it. To get the flag, you have to go to the showcase site of the >c2 in question.
+
+>This is real malware, so be careful when running it, use a vm for malware analysis
+
+>Checksum Sha256 of usb_drive.img : 8947e34165792040d86915aea29df01f5e65f49ccfd624032522720ffb87c379
 
 #### Récupération des fichiers
 
