@@ -4,10 +4,13 @@
 
 ## Challenge kNOCk kNOC 198 résolutions :
 
+
 **Ennoncé :**
 >Author: Braguette#0169
 >
 >We have to monitor our network every day to make sure our admins don't help players get out of the game. We are sending you a suspicious capture. Do your job !
+
+
 
 #### Analyse du fichier
 
@@ -25,6 +28,8 @@ Les données sont nettement moins importantes à analyser. Je viens à présent 
 
 <img src="./src/images/forensic/forensic_Intro_3.png"/>
 
+
+
 #### Extraction du document transmis
 
 On y voit clairement qu’un client a envoyé une requête **HTTP GET** pour récupérer un fichier nommé, **“MalPack.deb”**. Le serveur est en “200 OK”, et envoie donc le fichier.
@@ -41,8 +46,12 @@ Ensuite, on va dans `/usr/local/bin` et on y trouve le fichier simplescript.sh q
 
 <img src="./src/images/forensic/forensic_Intro_6.png"/>
 
+
+
+
 ## Challenge Silver 69 résolutions :
 
+**Ennoncé :**
 >Author: Mr.NOODLE#9112
 >
 >Hey,
@@ -51,6 +60,8 @@ Ensuite, on va dans `/usr/local/bin` et on y trouve le fichier simplescript.sh q
 >This is real malware, so be careful when running it, use a vm for malware analysis
 >
 >Checksum Sha256 of usb_drive.img : 8947e34165792040d86915aea29df01f5e65f49ccfd624032522720ffb87c379
+
+
 
 #### Récupération des fichiers
 
@@ -67,6 +78,8 @@ Donc on va venir utiliser **Autopsy** qui est un logiciel qui va permettre de r�
 Il nous permet d’analyser l’image et d’obtenir d'intéressants fichiers.
 
 <img src="./src/images/forensic/forensic_Easy_2.png"/>
+
+
 
 #### Analyse des fichiers récupéré
 
@@ -85,6 +98,8 @@ Il y a une dernière ligne en commentaire pour supprimer le fichier `Important.p
 Le fichier Important.pdf n’est rien de plus qu’un pdf contenant “Hello, this is important” et ne va pas vraiment nous intéresser.
 
 Et pour finir, le plus important, le fichier `.firefox.elf`. L'extension .elf est le format de fichier binaire standard pour les systèmes UNIX. Or on sait, par l’énoncé, que cet exécutable envoie des informations vers un serveur distant.
+
+
 
 #### Interception du site malveillant
 
