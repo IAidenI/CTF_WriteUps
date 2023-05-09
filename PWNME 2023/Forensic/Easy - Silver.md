@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./src/images/forensic/forensic.png"/>
+  <img src="./src/images/forensic.png"/>
 </p>
 
 ## Challenge Silver 69 résolutions :
@@ -23,14 +23,14 @@ On l’extrait et on obtient un fichier image nommé `usb_drive.img`.
 
 La première chose à laquelle on pense, c'est de monter le fichier image dans un dossier nommé **usb-drive**.
 
-<img src="./src/images/forensic/forensic_Easy_1.png"/>
+<img src="./src/images/forensic_Easy_1.png"/>
 
 Or si on se rend ensuite dans le fichier, on voit rapidement que celui-ci est vide.
 Donc on va venir utiliser **Autopsy** qui est un logiciel qui va permettre de récupérer des documents qui ont été supprimés.
 
 Il nous permet d’analyser l’image et d’obtenir d'intéressants fichiers.
 
-<img src="./src/images/forensic/forensic_Easy_2.png"/>
+<img src="./src/images/forensic_Easy_2.png"/>
 
 
 
@@ -38,11 +38,11 @@ Il nous permet d’analyser l’image et d’obtenir d'intéressants fichiers.
 
 On y voit notamment un fichier `.pdf.png` qui contient juste une image et le fichier `.Important.pdf.desktop` qui est un raccourcis :
 
-<img src="./src/images/forensic/forensic_Easy_3.png"/>
+<img src="./src/images/forensic_Easy_3.png"/>
 
 On peut donc y voir que qui va executer un programme nommé `.a.sh` qui est un script bash :
 
-<img src="./src/images/forensic/forensic_Easy_4.png"/>
+<img src="./src/images/forensic_Easy_4.png"/>
 
 Ici, le programme va venir ajouter une ligne de commande au programme `~/.bashrc` qui va exécuter à chaque fois qu’un nouveau terminal est ouvert le programme `~/fierfox`.
 Ensuite, il vient copier le fichier `.firefox.elf` dans le dossier `~/.firefox`.
@@ -59,11 +59,11 @@ Et pour finir, le plus important, le fichier `.firefox.elf`. L'extension .elf es
 Par mesure de précaution, j’ai donc créé un VM pour exécuter ce programme.
 Lors de son exécution, comme on peut s’en douter, il ne se passe rien visuellement, mais si on vient faire un scan du réseau avec **Wireshark**, on peut observer que lorsque l’on exécute le fichier, certaines trames apparaissent.
 
-<img src="./src/images/forensic/forensic_Easy_5.png"/>
+<img src="./src/images/forensic_Easy_5.png"/>
 
 On y voit notamment 192.168.0.168 (qui est l’ip de ma VM) qui envoie des données au 178.62.67.181 sur le port 443.
 Et si je rentre dans une barre de recherche, 178.62.67.181:443
 
 On y voit une page web avec :
 
-<img src="./src/images/forensic/forensic_Easy_6.png"/>
+<img src="./src/images/forensic_Easy_6.png"/>
