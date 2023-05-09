@@ -1,11 +1,8 @@
-<div style="text-align:center;">
-  <div style="display:inline-block; width:100%;">
-    <img src="./scr/images/titre.png"/>
-  </div>
-  <div style="display:inline-block; width:100%;">
-    <img src="./scr/images/forensic/forensic.png"/>
-  </div>
-</div>
+<center>
+  <img src="./scr/images/titre.png" />
+  <br />
+  <img src="./scr/images/forensic/forensic.png" />
+</center>
 
 ## Challenge “kNOCk kNOC” 198 résolutions :
 
