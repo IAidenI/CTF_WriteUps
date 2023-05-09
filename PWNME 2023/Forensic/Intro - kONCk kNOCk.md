@@ -40,7 +40,7 @@ Je viens ensuite choisir la trame qui m'intéresse et l’exporter :
 
 J’ai donc belle et bien le fichier **“MalPack.deb”** :
 
-<img src="./src/images/forensic/forensic_Intro_5.png"/>
+<img src="./src/images/forensic_Intro_5.png"/>
 
 Ensuite, on va dans `/usr/local/bin` et on y trouve le fichier simplescript.sh que l’ion peux venir extraire pour l’exécuter ou bien juste l’ouvrir pour obtenir le flag :
 
