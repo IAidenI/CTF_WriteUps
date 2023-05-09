@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <h1>- Forensic -</h1>
+  <img src="./scr/images/forensic/forensic.png" />
 </p>
 
 Le forensic est l'investigation d’un système d’information après une cyberattaque
