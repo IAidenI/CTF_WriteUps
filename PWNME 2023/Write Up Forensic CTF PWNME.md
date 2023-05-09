@@ -10,9 +10,9 @@ Le forensic est l'investigation d’un système d’information après une cyber
 
 ```Author: Braguette#0169```
 
-```We have to monitor our network every day to make sure our admins don't help
+```We have to monitor our network every day to make sure our admins don't help```
 
-players get out of the game. We are sending you a suspicious capture. Do your job !```
+```players get out of the game. We are sending you a suspicious capture. Do your job !```
 
 #### Analyse du fichier
 
