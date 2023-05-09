@@ -1,8 +1,10 @@
-<center>
+<p align="center">
   <img src="./scr/images/titre.png" />
-  <br />
+</p>
+
+<p align="center">
   <img src="./scr/images/forensic/forensic.png" />
-</center>
+</p>
 
 ## Challenge “kNOCk kNOC” 198 résolutions :
 
