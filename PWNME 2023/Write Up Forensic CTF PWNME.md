@@ -14,4 +14,5 @@
 
 On vient télécharger le fichier **“kNOCk kNOCk”** qui s'avère être un .pcapng. C’est donc un fichier contenant un scan réseau.
 
-Pour pouvoir le lire, je l’ouvre avec __Wireshark__ et j'obtiens énormément de données :
+Pour pouvoir le lire, je l’ouvre avec **Wireshark** et j'obtiens énormément de données :
+<img src="./src/images/forensic/forensic_Intro_1.png"/>
