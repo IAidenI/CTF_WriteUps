@@ -1,8 +1,4 @@
 <p align="center">
-  <img src="./src/images/titre.png"/>
-</p>
-
-<p align="center">
   <img src="./src/images/forensic/forensic.png"/>
 </p>
 
