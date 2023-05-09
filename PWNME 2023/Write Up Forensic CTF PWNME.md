@@ -1,8 +1,5 @@
 <p align="center">
   <img src="./scr/images/titre.png" />
-</p>
-
-<p align="center">
   <img src="./scr/images/forensic/forensic.png" />
 </p>
 
