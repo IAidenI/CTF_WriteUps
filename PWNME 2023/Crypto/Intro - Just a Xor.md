@@ -16,7 +16,7 @@
 
 Tout d’abord, lorsque l’on télécharge le zip, on y trouve trois fichiers : `encrypt.py`, `intercepted-original-mesage.txt`, `message-encrypted.txt`.
 
-Comme le dit leur titre, on retrouve le message chiffré : 
+Comme leurs titres le dit très bien, on retrouve le message chiffré : 
 
 <img src="./src/images/crypto_Intro_1.png"/>
 
@@ -45,7 +45,7 @@ Qui me permet d’obtenir :
 
 ### Récupération d’une partie du message
 
-J’ai donc à présent, une partie de **SECRET**. Je peux donc essayer de voir si je ne peux pas trouver plus de caractères sûr le message intercepté, car on le rappelle, il utilise `cycle(SECRET)` donc certes cela ne changera rien pour les 16 premiers caractères, mais pour le reste je devrais voir apparaître certains caractères.
+J’ai donc à présent, une partie de **SECRET**. Je peux donc essayer de voir si je ne peux pas trouver plus de caractères dans le message intercepté, car on le rappelle, il utilise `cycle(SECRET)` donc certes cela ne changera rien pour les 16 premiers caractères, mais pour le reste je devrais voir apparaître certains caractères.
 
 Je viens donc réaliser cette nouvelle fonction :
 
@@ -55,7 +55,7 @@ Et j'obtiens :
 
 <img src="./src/images/crypto_Intro_7.png"/>
 
-On voit que certains caractères sont nouveaux.
+Si on ajoute ces caractères à ceux du message intercepté, on voit que certains caractères sont nouveaux.
 On sait que le flag est du genre : **PWNME{XXXXXXX}**
 On peut donc conjecturer que je devrais avoir 
 
@@ -72,7 +72,7 @@ On voit donc que la partie qui nous intéresse est
 
 <img src="./src/images/crypto_Intro_11.png"/>
 
-On récupère les longueurs avant cette partie du message qui est de **64**.
+On récupère le nombre de caractères qui ser trouvent avant cette partie du message, et qui est de **64 caractères**.
 
 
 ### Récupération d’une autre partie du SECRET/message
@@ -92,9 +92,10 @@ Et on obtient
 
 ### Récupération du flag
 
-Nous avons donc presque fini, on reprend les même étapes, en changeant “oo***uck**or the” par “ood luck for the” (cela correspond au découpage de 16 caractères).
+Nous avons donc presque fini, on reprend les même étapes, en changeant **“oo\*\*\*uck\*\*or the”** par **“ood luck for the”** (cela correspond au découpage de 16 caractères).
 
 Je change donc juste ces lignes				Par
+
 <img src="./src/images/crypto_Intro_16.png"/>			<img src="./src/images/crypto_Intro_17.png"/>
 
 Et le flag s’affiche
