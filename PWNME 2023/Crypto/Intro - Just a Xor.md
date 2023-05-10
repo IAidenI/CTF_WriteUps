@@ -56,7 +56,9 @@ Et j'obtiens :
 <img src="./src/images/crypto_Intro_7.png"/>
 
 Si on ajoute ces caractères à ceux du message intercepté, on voit que certains caractères sont nouveaux.
+
 On sait que le flag est du genre : **PWNME{XXXXXXX}**
+
 On peut donc conjecturer que je devrais avoir 
 
 <img src="./src/images/crypto_Intro_8.png"/>
