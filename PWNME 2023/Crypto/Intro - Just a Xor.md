@@ -42,6 +42,7 @@ Qui me permet d’obtenir :
 
 <img src="./src/images/crypto_Intro_5.png"/>
 
+
 ### Récupération d’une partie du message
 
 J’ai donc à présent, une partie de **SECRET**. Je peux donc essayer de voir si je ne peux pas trouver plus de caractères sûr le message intercepté, car on le rappelle, il utilise `cycle(SECRET)` donc certes cela ne changera rien pour les 16 premiers caractères, mais pour le reste je devrais voir apparaître certains caractères.
