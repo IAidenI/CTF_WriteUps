@@ -56,9 +56,7 @@ Et j'obtiens :
 <img src="./src/images/crypto_Intro_7.png"/>
 
 Si on ajoute ces caractères à ceux du message intercepté, on voit que certains caractères sont nouveaux.
-
 On sait que le flag est du genre : **PWNME{XXXXXXX}**
-
 On peut donc conjecturer que je devrais avoir 
 
 <img src="./src/images/crypto_Intro_8.png"/>
@@ -96,7 +94,7 @@ Et on obtient
 
 Nous avons donc presque fini, on reprend les même étapes, en changeant **“oo\*\*\*uck\*\*or the”** par **“ood luck for the”** (cela correspond au découpage de 16 caractères).
 
-Je change donc juste ces lignes				Par
+Je change donc juste ces lignes &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Par
 
 <img src="./src/images/crypto_Intro_16.png"/>			<img src="./src/images/crypto_Intro_17.png"/>
 
