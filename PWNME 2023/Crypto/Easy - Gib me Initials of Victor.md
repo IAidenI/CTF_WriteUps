@@ -18,7 +18,7 @@ On vient récupérer deux fichiers, un message chiffré :
 
 <img src="./src/images/crypto_Easy_1.png"/>
 
-Et son algorithme qui l’as chiffré :
+Et son algorithme qui l’a chiffré :
 
 <img src="./src/images/crypto_Easy_2.png"/>
 
@@ -28,7 +28,7 @@ Afin de déchiffrer le message, l’idéal serait de mettre la main sur le **vec
 Si on inspecte le code un peu plus attentivement, on constate que notre message {“ciphertext”:XXX}, est composé de trois choses.
 Le **vecteur d'initialisation** en hexadécimal sans ses deux premier caractères, le message chiffré et une variable **signature**.
 
-Parfait, on a une partie d’un des éléments qu’il nous faut pour déchiffrer le message. Si on remonte légèrement le code, on constate qu'en réalité, on peut assez facilement récupérer **KEY**, à partir du **vecteur d’initialisation**.
+Parfait, on a une presque un des éléments qu’il nous faut pour déchiffrer le message, et si on remonte légèrement le code, on constate qu'en réalité, on peut assez facilement récupérer **KEY**, à partir du **vecteur d’initialisation**.
 
 
 
