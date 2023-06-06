@@ -23,7 +23,7 @@ Et son algorithme qui l’a chiffré :
 <img src="./src/images/crypto_Easy_2.png"/>
 
 Dans cet algorithme, on voit assez rapidement que c’est un chiffrement **AES CBC**. 
-Afin de déchiffrer le message, l’idéal serait de mettre la main sur le **vecteur d’initialisation** et la **KEY**.
+Afin de déchiffrer le message, l’idéal serait de mettre la main sur le **vecteur d’initialisation** (IV) et la **KEY**.
 
 Si on inspecte le code un peu plus attentivement, on constate que notre message {“ciphertext”:XXX}, est composé de trois choses.
 Le **vecteur d'initialisation** en hexadécimal sans ses deux premier caractères, le message chiffré et une variable **signature**.
