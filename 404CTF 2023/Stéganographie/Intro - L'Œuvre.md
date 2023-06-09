@@ -14,6 +14,6 @@ Nous avons à notre disposition une image.
 
 <img src="./src/images/stegano_intro_1.png"/>
 
-Elle n'as visiblement rien d'interessant. Mais la stéganographie est de dissimuler un information. Un outil très util pour les images est https://aperisolve.fr. Cela permet de montrer des possibles metadata ou du texte caché. Dans les vues superposé, on y trouve cela :
+Elle n'as visiblement rien d'interessant. Mais la stéganographie est de dissimuler une information. Un outil très utile pour les images est https://aperisolve.fr. Cela permet de montrer des possibles metadata ou du texte caché. Dans les vues superposé, on y trouve cela :
 
 <img src="./src/images/stegano_intro_2.png"/>
