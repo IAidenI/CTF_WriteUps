@@ -22,10 +22,6 @@ Programation
 - Difficile  : Des mots, des mots, des mots by Occalepsus
 
 
-OSINT
-- Intro : Le Tour de France by Hg
-
-
 Stéganographie
 - Easy  : L'Œuvre by Neptales
 
