@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./src/image/404ctf.png"/>
+  <img src="./src/image/404ctf.jpg"/>
 </p>
 
 # Write Up 404CTF 2023
