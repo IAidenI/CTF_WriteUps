@@ -12,8 +12,8 @@ Etant donné que nous connaisons le cipher text et une partie du plain text, j'a
 
 
 Lorsqu'on l'exécute, on obtient :
-`[*] Search the key...
-[+] Key found : Emoji Moring Sta`
+<pre><code>[*] Search the key...
+[+] Key found : Emoji Moring Sta</pre></code>
 
 La clé utilisé est donc Emoji Moring Sta. J'ai donc juste à continuer mon code et qui va venir faire un **XOR** entre le fichier crypter et la clé.
 
