@@ -15,16 +15,16 @@ Il est marqué que cette suite de 1 et de 0 coresspond à TUCTF{grabage}. Une au
 <img src="./src/images/simple_cipher_medium_2.png"/>
 
 Ici on a `binKey = str(bin(int('1'+key,base=16)))[3:]` qui vient convertir la clé en binaire.
-`binPT=''
+<pre><code>binPT=''
     for chr in pt:
-        binPT+='{0:08b}'.format(ord(chr)) `
+        binPT+='{0:08b}'.format(ord(chr))</pre></code>
 permet de convertir le plain text en binaire.
 
 Et enfin
-`binCText=''
+<pre><code>binCText=''
     binPT=pad(binPT)
     for i in range(0,len(binPT),48):
-        binCText+=xor(substitution(binPT[i:i+48]),binKey)`
+        binCText+=xor(substitution(binPT[i:i+48]),binKey)</pre></code>
 permet de faire un **XOR** entre `substitution(binPT[i:i+48])` et la clé en binaire qui va crée le cipher text.
 
 On va donc commencer par ici. On connait le cipher text, donc pour retrouver la clé on va faire `binKey+=xor(substitution(binPT[i:i+48]),binCText)`. Mais on ne connait pas la valeur de substitution(binPT[i:i+48]). Mais étant donné que l'on a l'algorithme de chiffrement, on peut donc s'en servir pour chiffrer un message, par exemple TUCTF{IT_IS_AN_EXEMPLE}
