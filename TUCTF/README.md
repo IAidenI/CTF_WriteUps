@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./src/image/TUCTF.jpg"/>
+  <img src="./src/image/TUCTF.png"/>
 </p>
 
 # Write Up TUCTF 2023
