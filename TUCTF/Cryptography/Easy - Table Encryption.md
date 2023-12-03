@@ -6,7 +6,7 @@
 >nc chal.tuctf.com 30004 
 
 
-Pour ce challenge nous avons un fichier `SimpleCipher_Pub.py`. On voit rapidement un section interessante :
+Pour ce challenge nous avons un fichier `SimpleCipher_Pub.py`. On voit rapidement une section interessante :
 
 <img src="./src/images/simple_cipher_medium_1.png"/>
 
