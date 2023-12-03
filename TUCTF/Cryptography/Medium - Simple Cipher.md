@@ -14,13 +14,11 @@ Il est marqué que cette suite de 1 et de 0 coresspond à TUCTF{grabage}. Une au
 
 <img src="./src/images/simple_cipher_medium_2.png"/>
 
-Ici on a `binKey = str(bin(int('1'+key,base=16)))[3:]` qui vient convertir la clé en binaire.
+Ici on a `binKey = str(bin(int('1'+key,base=16)))[3:]` qui vient convertir la clé en binaire,
 <pre><code>binPT=''
     for chr in pt:
         binPT+='{0:08b}'.format(ord(chr))</pre></code>
-permet de convertir le plain text en binaire.
-
-Et enfin
+permet de convertir le plain text en binaire, et enfin
 <pre><code>binCText=''
     binPT=pad(binPT)
     for i in range(0,len(binPT),48):
