@@ -4,7 +4,7 @@
 >You can't crack my file! I am the exclusive owner of the encryption key!
 
 
-Nous avons accès un fichier `table_encryption.xml.enc` et c'est à peu près tout. La seul information que l'on a est que le fichier de base est un fichier `.xml`. Avec un recherche internet on remarque que ce genre de fichier commencé très souvent avec cette entête : `<?xml version="1.0" encoding="UTF-8"?>`.
+Nous avons accès un fichier `table_encryption.xml.enc` et c'est à peu près tout. La seul information que l'on a est que le fichier de base est un fichier `.xml`. Avec une recherche internet on remarque que ce genre de fichier commencé très souvent avec cette entête : `<?xml version="1.0" encoding="UTF-8"?>`.
 Mais cela ne nous avance pas sur la manière dont il a été chiffré. J'ai donc émis une hypothèse. Très souvant dans les challenges de cryptographie, les **XOR** est utilisé pour chiffrer des donnée et assez facilement retrouver le message en clair (car A XOR B = C <=> A XOR C = B).
 Etant donné que nous connaisons le cipher text et une partie du plain text, j'ai fait un **XOR** entre cex deux valeur, dans un premier temps manuellement. Et j'ai pu observer que la clé commencais "Emoji ". Il i a donc de forte chances pour que mon hypothèse soit correcte. J'ai donc fait un algorithme pour trouver ma clé :
 
