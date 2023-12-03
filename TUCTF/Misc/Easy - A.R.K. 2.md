@@ -15,7 +15,7 @@ Nous allons donc faire exactement cela.
 
 Bien, nous avons récuperer le hash. Il nous reste plus qu'à retrouver le mot de passe. Pour cela j'ai utilisé `hashcat`.
 
-<img src="./src/images/misc_easy_3.png"/>
+<img src="./src/images/misc_easy_3e.png"/>
 
 Il faut donc utiliser `13400` pour les mot de passe **KeePass**.
 On vient donc exécuter cette commande : `$ hashcat -m 13400 -a 0 hash.txt /usr/share/wordlists/rockyou.txt`
