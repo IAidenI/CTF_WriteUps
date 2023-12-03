@@ -4,7 +4,7 @@
 >This challenge is like ogres, it has layers
 
 
-Nous avons accès un fichier `layers.jpg` mais il semble être corrompus. Avec un recherche internet on tombe rapidement sur [recovery jpg](https://www.file-recovery.com/jpg-signature-format.htm). On suit donc les indications et on obtient cela
+Nous avons accès un fichier `layers.jpg` mais il semble être corrompus. Avec une recherche internet on tombe rapidement sur [recovery jpg](https://www.file-recovery.com/jpg-signature-format.htm). On suit donc les indications et on obtient cela
 
 <img src="./src/images/forensic_easy_1.jpg"/>
 
