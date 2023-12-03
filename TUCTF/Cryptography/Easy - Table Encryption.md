@@ -1,4 +1,4 @@
-## Challenge “Table Encryption” 51 résolutions :
+## Challenge “Table Encryption” 93 résolutions :
 
 **Ennoncé :**
 >I made my own encryption algorithm, surely it is secure! I even made sure to redact the important parts!
