@@ -1,4 +1,4 @@
-## Challenge “A.R.K. 2” XXX résolutions :
+## Challenge “A.R.K. 2” 151 résolutions :
 
 **Ennoncé :**
 >Woof woof bark bark (Note: to speed up the process, only include entries containing "dog" in your attempts)
