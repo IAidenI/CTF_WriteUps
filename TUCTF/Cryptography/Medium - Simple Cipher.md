@@ -25,11 +25,11 @@ permet de convertir le plain text en binaire, et enfin
         binCText+=xor(substitution(binPT[i:i+48]),binKey)</pre></code>
 permet de faire un **XOR** entre `substitution(binPT[i:i+48])` et la clé en binaire qui va crée le cipher text.
 
-On va donc commencer par ici. On connait le cipher text, donc pour retrouver la clé on va faire `binKey+=xor(substitution(binPT[i:i+48]),binCText)`. Mais on ne connait pas la valeur de substitution(binPT[i:i+48]). Mais étant donné que l'on a l'algorithme de chiffrement, on peut donc s'en servir pour chiffrer un message, par exemple TUCTF{IT_IS_AN_EXEMPLE}
+On va donc commencer par ici. On connait le cipher text, donc pour retrouver la clé on va faire `binKey+=xor(substitution(binPT[i:i+48]),binCText)`. Mais on ne connait pas la valeur de `substitution(binPT[i:i+48])` puisqu'il faut connaitre le plain text. Mais étant donné que l'on a l'algorithme de chiffrement, on peut donc s'en servir pour chiffrer un message, par exemple TUCTF{IT_IS_AN_EXEMPLE}
 
 <img src="./src/images/simple_cipher_medium_3.png"/>
 
-Nous avons donc un cipher text, la clé et le plain text. On vient donc faire un petit algorithme pour essayer de retrouver notre clé à partir du cipher et de la partie connu du flag (TUCTF{). On prend les 48 premiers caractères du cipher text (binPT[i:i+48]), que l'on **XOR** avec le binaire de TUCTF{.
+Nous avons donc un cipher text, la clé et le plain text. On vient donc faire un petit algorithme pour essayer de retrouver notre clé à partir du cipher et des 48 premier caractères (qui correspondent à TUCTF{). On prend les 48 premiers caractères du cipher text, que l'on **XOR** avec le binaire de TUCTF{.
 
 <img src="./src/images/simple_cipher_medium_4.png"/>
 
