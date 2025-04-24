@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="290" height="185" viewBox="0 0 290 185">
+  <style>
+    .card {
+      fill: #0f172a;
+      stroke: #334155;
+      stroke-width: 1;
+    }
+    .icon {
+      stroke: #06b6d4;
+      stroke-width: 2;
+      fill: none;
+    }
+    .title {
+      font-size: 16px;
+      font-weight: bold;
+      fill: white;
+      font-family: sans-serif;
+    }
+    .list {
+      font-size: 12px;
+      fill: #94a3b8;
+      font-family: sans-serif;
+    }
+  </style>
+
+  <!-- Card Background -->
+  <rect x="10" y="10" width="270" height="165" rx="16" ry="16" class="card" />
+
+  <!-- Icon (binary) -->
+  <g transform="translate(30, 30)">
+    <rect x="14" y="14" width="4" height="6" rx="2" class="icon" />
+    <rect x="6" y="4" width="4" height="6" rx="2" class="icon" />
+    <path d="M6 20h4" class="icon" />
+    <path d="M14 10h4" class="icon" />
+    <path d="M6 14h2v6" class="icon" />
+    <path d="M14 4h2v6" class="icon" />
+  </g>
+
+  <!-- Title -->
+  <text x="30" y="85" class="title">Mission 3</text>
+
+  <!-- Bullet Points -->
+  <text x="30" y="110" class="list">• Analyse de logs</text>
+  <text x="30" y="125" class="list">• Analyse de malware</text>
+  <text x="30" y="140" class="list">• Reverse Engineering</text>
+  <text x="30" y="155" class="list">• Forensic</text>
+</svg>

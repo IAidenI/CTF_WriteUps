@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="290" height="185" viewBox="0 0 290 185">
+  <style>
+    .card {
+      fill: #0f172a;
+      stroke: #334155;
+      stroke-width: 1;
+    }
+    .icon {
+      stroke: #06b6d4;
+      stroke-width: 2;
+      fill: none;
+    }
+    .dot {
+      fill: #06b6d4;
+    }
+    .title {
+      font-size: 16px;
+      font-weight: bold;
+      fill: white;
+      font-family: sans-serif;
+    }
+    .list {
+      font-size: 12px;
+      fill: #94a3b8;
+      font-family: sans-serif;
+    }
+  </style>
+
+  <!-- Card Background -->
+  <rect x="10" y="10" width="270" height="165" rx="16" ry="16" class="card" />
+
+  <!-- Icon (smartphone) with visible dot -->
+  <g transform="translate(30, 30)">
+    <rect width="14" height="20" x="5" y="2" rx="2" ry="2" class="icon" />
+    <circle cx="12" cy="18" r="1.2" class="dot" />
+  </g>
+
+  <!-- Title -->
+  <text x="30" y="85" class="title">Mission 5</text>
+
+  <!-- Bullet Points -->
+  <text x="30" y="110" class="list">• Exploitation mobile</text>
+  <text x="30" y="125" class="list">• Cryptographie</text>
+  <text x="30" y="140" class="list">• Reverse Engineering Android</text>
+</svg>
